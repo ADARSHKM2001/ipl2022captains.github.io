@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 20px;
+   
+}
+
+.heading h2{
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:grey;
+    height: 80vh;
+    width: 100%;
+    align-items: center;
+}
+.card-coverphoto
+{
+    /* background-color: rgb(46, 168, 228); */
+    height: 80px;
+   
+    width: 100%;
+}
+.card-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 10px 10px black;
+    
+   
+}
+
+.card-coverphoto img
+{
+    height: 140px;
+    width: 100%;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+.card-box button
+{
+    width: 120px;
+    height: 30px;
+}
+.container>div{
+    height: 420px;
+    width: 200px;
+    background-color: rgb(229, 240, 250);
+    border-radius: 10px;
+    transition-duration:0.40s;
+   
+}
+
+.container>div:hover{
+    /* height: 440px;
+    width: 220px; */
+    transform: scale(1.03);
+   
+    
+}
+.card-profile{
+    text-align: center;
+}
+.card-profile img{
+    width: 100px;
+    border-radius: 90px;
+    margin-top: 40px;
+    border: 1px solid;
+   
+}
+
+.card-about
+{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+button{
+    margin-top: 20px;
+    font-size: 17px;
+    border-radius: 20px;
+    color: darkblue;
+    border: 2px solid darkblue;
+}
+
+button:hover
+{
+    color: white;
+    background-color: darkblue;
+    cursor: pointer;
+}
+.card-about{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
+}   
+
+
+
+
+
